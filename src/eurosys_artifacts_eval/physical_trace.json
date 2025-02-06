@@ -1,0 +1,14 @@
+{
+    "0": {
+        "name": "sage",
+        "arrival_time": 20
+    },
+    "1": {
+        "name": "two_node_resnet18",
+        "arrival_time": 30
+    },
+    "2": {
+        "name": "a3c",
+        "arrival_time": 40
+    }
+}

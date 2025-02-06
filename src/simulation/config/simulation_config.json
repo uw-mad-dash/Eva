@@ -1,0 +1,40 @@
+{
+    "simulator_ip_addr": "localhost",
+    "simulator_port": 40422,
+    "event_receiver_ip_addr": "localhost",
+    "event_receiver_port": 50421,
+    "cloud_provisioner_config": "/home/ubuntu/eva/src/simulation/config/ec2_config.json",
+    "workload_trace_config": "/home/ubuntu/eva/src/resubmission_physical/simulation_trace.json",
+    "eva_ip_addr": "localhost",
+    "eva_port": 50422,
+    "master_ip_addr": "localhost",
+    "master_port": 50423,
+    "worker_port": null,
+    "worker_working_dir": null,
+    "mount_dir": null,
+    "datasets_dir": null,
+    "swarm_ip_addr": null,
+    "swarm_port": null,
+    "docker_subnet": null,
+    "docker_iprange": null,
+    "iterator_port": null,
+    "scheduling_interval": 300,
+    "report_interval": 10,
+    "report_file": "~/fas.json",
+    "mode": "simulation",
+    "cloud_provisioner": {
+        "class_name": "EC2Provisioner",
+        "args":{
+            "config_path": "/home/ubuntu/eva/src/simulation/config/ec2_config.json"
+        }
+    },
+    "storage_manager": null,
+    "scheduler": {
+        "class_name": "NaiveScheduler",
+        "args": {
+        }
+    },
+    "ending_job_id": 100,
+    "contention_factor": 0.93,
+    "contention_map_file": "/home/ubuntu/eva/src/simulation/contention_map/contention_map.pkl" 
+}

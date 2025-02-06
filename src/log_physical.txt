@@ -1,0 +1,515 @@
+Total reclaimed space: 0B
+Deleted Networks:
+eva_network
+
+Node left the swarm.
+Total reclaimed space: 0B
+Deleted Networks:
+docker_gwbridge
+
+master.master:469:INFO [0.70] Docker swarm initialized
+master.master:493:INFO [0.71] Created docker network eva_network with subnet 10.0.0.0/16 and iprange 10.0.255.0/24
+master.master:1021:INFO [0.87] Scheduling...
+master.master:1419:INFO [0.87] Final throughput dict: {}
+master.master:1473:INFO [0.87] Potential updates: {}
+master.master:1005:INFO [0.87] Current config: {}
+master.master:1006:INFO [0.87] Planned config: {}
+master.master:872:INFO [0.87] Reconfiguring...
+master.master:874:INFO [0.87] No reconfiguration needed
+master.master:324:INFO [20.73] Task added. ID: 0. Name: node0
+master.master:367:INFO [20.73] Job added. ID: 0. Name: sage
+master.master:324:INFO [30.66] Task added. ID: 1. Name: node0
+master.master:324:INFO [30.66] Task added. ID: 2. Name: node0
+master.master:367:INFO [30.66] Job added. ID: 1. Name: two_node_resnet18
+master.master:324:INFO [40.76] Task added. ID: 3. Name: node0
+master.master:367:INFO [40.76] Job added. ID: 2. Name: a3c
+master.master:1021:INFO [60.87] Scheduling...
+master.master:1419:INFO [60.87] Final throughput dict: {}
+master.master:1473:INFO [60.87] Potential updates: {}
+master.master:1005:INFO [60.88] Current config: {}
+master.master:1006:INFO [60.88] Planned config: {(-6, 'p3.8xlarge'): [0, 1, 2], (-7, 'c7i.2xlarge'): [3]}
+master.master:872:INFO [60.88] Reconfiguring...
+master.master:281:INFO [60.88] Launched instance 0 of type p3.8xlarge
+master.master:281:INFO [60.88] Launched instance 1 of type c7i.2xlarge
+master.master:926:INFO [60.88] Instance to launch: [0, 1]
+master.master:927:INFO [60.88] Instance to kill: []
+master.master:928:INFO [60.88] Job to launch: {0, 1, 2}
+master.master:929:INFO [60.88] Job to kill: set()
+master.master:713:INFO [60.88] Launching instance 0 of type 1
+master.master:713:INFO [60.88] Launching instance 1 of type 5
+master.master:617:INFO [60.88] Launching job 0
+master.master:798:INFO [60.88] Launching task 0 on instance 0
+master.master:617:INFO [60.88] Launching job 1
+master.master:798:INFO [60.88] Launching task 1 on instance 0
+master.master:617:INFO [60.88] Launching job 2
+master.master:798:INFO [60.88] Launching task 3 on instance 1
+master.master:798:INFO [60.88] Launching task 2 on instance 0
+master.master:724:INFO [67.45] Instance 1 launched
+master.master:724:INFO [82.82] Instance 0 launched
+master.master:1021:INFO [120.88] Scheduling...
+master.master:1414:INFO [120.88] Throughput from worker 0: {}
+master.master:1414:INFO [120.88] Throughput from worker 1: {}
+master.master:1419:INFO [120.88] Final throughput dict: {}
+master.master:1473:INFO [120.88] Potential updates: {(): ()}
+master.master:1005:INFO [120.88] Current config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:1006:INFO [120.88] Planned config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:872:INFO [120.88] Reconfiguring...
+master.master:874:INFO [120.88] No reconfiguration needed
+Total reclaimed space: 0B
+Deleted Networks:
+eva_network
+
+Node left the swarm.
+master.master:469:INFO [0.70] Docker swarm initialized
+master.master:493:INFO [0.71] Created docker network eva_network with subnet 10.0.0.0/16 and iprange 10.0.255.0/24
+master.master:1021:INFO [0.87] Scheduling...
+master.master:1419:INFO [0.87] Final throughput dict: {}
+master.master:1473:INFO [0.87] Potential updates: {}
+master.master:1005:INFO [0.87] Current config: {}
+master.master:1006:INFO [0.87] Planned config: {}
+master.master:872:INFO [0.87] Reconfiguring...
+master.master:874:INFO [0.87] No reconfiguration needed
+master.master:324:INFO [17.68] Task added. ID: 0. Name: node0
+master.master:367:INFO [17.68] Job added. ID: 0. Name: sage
+master.master:324:INFO [27.73] Task added. ID: 1. Name: node0
+master.master:324:INFO [27.73] Task added. ID: 2. Name: node0
+master.master:367:INFO [27.73] Job added. ID: 1. Name: two_node_resnet18
+master.master:324:INFO [37.73] Task added. ID: 3. Name: node0
+master.master:367:INFO [37.73] Job added. ID: 2. Name: a3c
+master.master:1021:INFO [60.87] Scheduling...
+master.master:1419:INFO [60.87] Final throughput dict: {}
+master.master:1473:INFO [60.87] Potential updates: {}
+master.master:1005:INFO [60.87] Current config: {}
+master.master:1006:INFO [60.87] Planned config: {(-6, 'p3.8xlarge'): [0, 1, 2], (-7, 'c7i.2xlarge'): [3]}
+master.master:872:INFO [60.87] Reconfiguring...
+master.master:281:INFO [60.87] Launched instance 0 of type p3.8xlarge
+master.master:281:INFO [60.87] Launched instance 1 of type c7i.2xlarge
+master.master:926:INFO [60.88] Instance to launch: [0, 1]
+master.master:927:INFO [60.88] Instance to kill: []
+master.master:928:INFO [60.88] Job to launch: {0, 1, 2}
+master.master:929:INFO [60.88] Job to kill: set()
+master.master:713:INFO [60.88] Launching instance 0 of type p3.8xlarge
+master.master:713:INFO [60.88] Launching instance 1 of type c7i.2xlarge
+master.master:617:INFO [60.88] Launching job 0
+master.master:798:INFO [60.88] Launching task 0 on instance 0
+master.master:617:INFO [60.88] Launching job 1
+master.master:798:INFO [60.88] Launching task 1 on instance 0
+master.master:617:INFO [60.88] Launching job 2
+master.master:798:INFO [60.88] Launching task 3 on instance 1
+master.master:798:INFO [60.88] Launching task 2 on instance 0
+master.master:724:INFO [67.47] Instance 1 launched
+master.master:724:INFO [82.63] Instance 0 launched
+master.master:1021:INFO [120.88] Scheduling...
+master.master:1414:INFO [120.88] Throughput from worker 0: {}
+master.master:1414:INFO [120.88] Throughput from worker 1: {}
+master.master:1419:INFO [120.88] Final throughput dict: {}
+master.master:1473:INFO [120.88] Potential updates: {(): ()}
+master.master:1005:INFO [120.88] Current config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:1006:INFO [120.88] Planned config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:872:INFO [120.88] Reconfiguring...
+master.master:874:INFO [120.88] No reconfiguration needed
+master.master:1021:INFO [180.88] Scheduling...
+master.master:1414:INFO [180.88] Throughput from worker 0: {}
+master.master:1414:INFO [180.88] Throughput from worker 1: {}
+master.master:1419:INFO [180.88] Final throughput dict: {}
+master.master:1473:INFO [180.88] Potential updates: {(): ()}
+master.master:1005:INFO [180.88] Current config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:1006:INFO [180.88] Planned config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:872:INFO [180.88] Reconfiguring...
+master.master:874:INFO [180.88] No reconfiguration needed
+master.master:741:INFO [185.74] Worker 1 has be ran
+master.master:745:INFO [185.74] Waiting for worker 1 to register and release cv
+master.master:741:INFO [212.83] Worker 0 has be ran
+master.master:745:INFO [212.83] Waiting for worker 0 to register and release cv
+master.master:1021:INFO [240.88] Scheduling...
+master.master:1414:INFO [240.88] Throughput from worker 0: {}
+master.master:1414:INFO [240.88] Throughput from worker 1: {}
+master.master:1419:INFO [240.88] Final throughput dict: {}
+master.master:1473:INFO [240.88] Potential updates: {(): ()}
+master.master:1005:INFO [240.88] Current config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:1006:INFO [240.88] Planned config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:872:INFO [240.88] Reconfiguring...
+master.master:874:INFO [240.88] No reconfiguration needed
+rpc.master_server:21:INFO [2025-02-06 02:06:00] Registered worker 1
+master.master:748:INFO [260.68] Worker 1 has registered
+master.master:755:INFO [260.68] Instance 1 launched
+rpc.master_server:21:INFO [2025-02-06 02:06:02] Registered worker 0
+master.master:748:INFO [262.89] Worker 0 has registered
+master.master:755:INFO [262.89] Instance 0 launched
+master.master:861:INFO [284.42] Task 3 starts executing on instance 1
+master.master:646:INFO [284.42] Job 2 launched
+master.master:861:INFO [296.01] Task 1 starts executing on instance 0
+master.master:861:INFO [296.08] Task 2 starts executing on instance 0
+master.master:646:INFO [296.08] Job 1 launched
+master.master:1021:INFO [300.88] Scheduling...
+master.master:1414:INFO [300.88] Throughput from worker 0: {}
+master.master:1414:INFO [300.88] Throughput from worker 1: {}
+master.master:1419:INFO [300.88] Final throughput dict: {}
+master.master:1473:INFO [300.88] Potential updates: {}
+master.master:1005:INFO [300.89] Current config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:1006:INFO [300.89] Planned config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:872:INFO [300.89] Reconfiguring...
+master.master:874:INFO [300.89] No reconfiguration needed
+master.master:861:INFO [350.64] Task 0 starts executing on instance 0
+master.master:646:INFO [350.64] Job 0 launched
+master.master:963:INFO [350.64] Reconfiguration done
+master.master:1021:INFO [360.89] Scheduling...
+master.master:1414:INFO [360.89] Throughput from worker 0: {}
+master.master:1414:INFO [360.89] Throughput from worker 1: {}
+master.master:1419:INFO [360.89] Final throughput dict: {}
+master.master:1473:INFO [360.89] Potential updates: {}
+/home/ubuntu/dnn-scheduling/eva/src/master/scheduler/eva_gang_scheduler.py:550: RuntimeWarning: divide by zero encountered in scalar divide
+  lamb = 1/self.get_average_event_interarrival_time()
+master.master:1005:INFO [360.89] Current config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:1006:INFO [360.89] Planned config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:872:INFO [360.89] Reconfiguring...
+master.master:874:INFO [360.89] No reconfiguration needed
+master.master:1021:INFO [420.89] Scheduling...
+master.master:1414:INFO [420.91] Throughput from worker 0: {}
+master.master:1414:INFO [420.92] Throughput from worker 1: {}
+master.master:1419:INFO [420.92] Final throughput dict: {}
+master.master:1473:INFO [420.92] Potential updates: {}
+master.master:1005:INFO [420.92] Current config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:1006:INFO [420.92] Planned config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:872:INFO [420.92] Reconfiguring...
+master.master:874:INFO [420.92] No reconfiguration needed
+master.master:1021:INFO [480.92] Scheduling...
+master.master:1414:INFO [480.93] Throughput from worker 1: {3: 14.916301727294922}
+master.master:1414:INFO [481.01] Throughput from worker 0: {2: 4.09751033782959, 1: 4.11665153503418}
+master.master:1419:INFO [481.01] Final throughput dict: {3: 14.916301727294922, 2: 4.09751033782959, 1: 4.11665153503418}
+master.master:1445:INFO [481.01] Task 3 (a3c_node0) throughput: 14.916301727294922
+master.master:1446:INFO [481.01] Task 3 (a3c_node0) full throughput: 13.02
+master.master:1447:INFO [481.01] Task 3 (a3c_node0) average observed throughput: 14.916301727294922
+master.master:1448:INFO [481.01] Task 3 (a3c_node0) observed throughput: [14.916301727294922]
+master.master:1445:INFO [481.01] Task 2 (two_node_resnet18_node0) throughput: 4.09751033782959
+master.master:1446:INFO [481.01] Task 2 (two_node_resnet18_node0) full throughput: 2.37
+master.master:1447:INFO [481.01] Task 2 (two_node_resnet18_node0) average observed throughput: 4.09751033782959
+master.master:1448:INFO [481.01] Task 2 (two_node_resnet18_node0) observed throughput: [4.09751033782959]
+master.master:1445:INFO [481.01] Task 1 (two_node_resnet18_node0) throughput: 4.11665153503418
+master.master:1446:INFO [481.01] Task 1 (two_node_resnet18_node0) full throughput: 2.37
+master.master:1447:INFO [481.01] Task 1 (two_node_resnet18_node0) average observed throughput: 4.11665153503418
+master.master:1448:INFO [481.01] Task 1 (two_node_resnet18_node0) observed throughput: [4.11665153503418]
+master.master:1473:INFO [481.01] Potential updates: {(3,): (1,)}
+master.master:1496:INFO [481.01] Contention map updated: a3c_node0 -> () -> [1]
+master.master:1005:INFO [481.02] Current config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:1006:INFO [481.02] Planned config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:872:INFO [481.02] Reconfiguring...
+master.master:874:INFO [481.02] No reconfiguration needed
+master.master:1021:INFO [541.02] Scheduling...
+master.master:1414:INFO [541.02] Throughput from worker 1: {3: 16.087871551513672}
+master.master:1414:INFO [541.03] Throughput from worker 0: {2: 2.1190292835235596, 0: 14.787196159362793, 1: 2.150193929672241}
+master.master:1419:INFO [541.04] Final throughput dict: {3: 16.087871551513672, 2: 2.1190292835235596, 0: 14.787196159362793, 1: 2.150193929672241}
+master.master:1445:INFO [541.04] Task 3 (a3c_node0) throughput: 16.087871551513672
+master.master:1446:INFO [541.04] Task 3 (a3c_node0) full throughput: 13.02
+master.master:1447:INFO [541.04] Task 3 (a3c_node0) average observed throughput: 15.502086639404297
+master.master:1448:INFO [541.04] Task 3 (a3c_node0) observed throughput: [14.916301727294922, 16.087871551513672]
+master.master:1445:INFO [541.04] Task 2 (two_node_resnet18_node0) throughput: 2.1190292835235596
+master.master:1446:INFO [541.04] Task 2 (two_node_resnet18_node0) full throughput: 2.37
+master.master:1447:INFO [541.04] Task 2 (two_node_resnet18_node0) average observed throughput: 3.1082698106765747
+master.master:1448:INFO [541.04] Task 2 (two_node_resnet18_node0) observed throughput: [4.09751033782959, 2.1190292835235596]
+master.master:1445:INFO [541.04] Task 0 (sage_node0) throughput: 14.787196159362793
+master.master:1446:INFO [541.04] Task 0 (sage_node0) full throughput: 2.433017451763153
+master.master:1447:INFO [541.04] Task 0 (sage_node0) average observed throughput: 14.787196159362793
+master.master:1448:INFO [541.04] Task 0 (sage_node0) observed throughput: [14.787196159362793]
+master.master:1445:INFO [541.04] Task 1 (two_node_resnet18_node0) throughput: 2.150193929672241
+master.master:1446:INFO [541.04] Task 1 (two_node_resnet18_node0) full throughput: 2.37
+master.master:1447:INFO [541.04] Task 1 (two_node_resnet18_node0) average observed throughput: 3.1334227323532104
+master.master:1448:INFO [541.04] Task 1 (two_node_resnet18_node0) observed throughput: [4.11665153503418, 2.150193929672241]
+master.master:1473:INFO [541.04] Potential updates: {(0, 1, 2): (1, 0.9072548226465152, 0.8941051829213331), (3,): (1,)}
+master.master:1496:INFO [541.04] Contention map updated: sage_node0 -> ('two_node_resnet18_node0', 'two_node_resnet18_node0') -> [1]
+master.master:1496:INFO [541.04] Contention map updated: a3c_node0 -> () -> [1, 1]
+master.master:1500:INFO [541.04] Updating contention map for job 1
+master.master:1507:INFO [541.04] Observed task throughputs: [0.9072548226465152, 0.8941051829213331]
+master.master:1539:INFO [541.04] multi job case: none recorded, kv-pair two_node_resnet18_node0 -> ('sage_node0', 'two_node_resnet18_node0') has the most tasks
+master.master:1562:INFO [541.04] for multi task job 1, contention map updated: two_node_resnet18_node0 -> ('sage_node0', 'two_node_resnet18_node0') -> [0.8941051829213331]
+master.master:1005:INFO [541.04] Current config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:1006:INFO [541.04] Planned config: {(0, 'p3.8xlarge'): [0, 1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:872:INFO [541.04] Reconfiguring...
+master.master:874:INFO [541.04] No reconfiguration needed
+master.master:226:INFO [568.31] Task 0 completed on worker 0
+master.master:239:INFO [568.31] Job 0 finished
+master.master:1021:INFO [601.04] Scheduling...
+master.master:1414:INFO [601.04] Throughput from worker 1: {3: 16.397916793823242}
+master.master:1414:INFO [601.05] Throughput from worker 0: {2: 2.452385425567627, 1: 2.452359199523926}
+master.master:1419:INFO [601.05] Final throughput dict: {3: 16.397916793823242, 2: 2.452385425567627, 1: 2.452359199523926}
+master.master:1445:INFO [601.05] Task 3 (a3c_node0) throughput: 16.397916793823242
+master.master:1446:INFO [601.05] Task 3 (a3c_node0) full throughput: 13.02
+master.master:1447:INFO [601.05] Task 3 (a3c_node0) average observed throughput: 15.80069669087728
+master.master:1448:INFO [601.05] Task 3 (a3c_node0) observed throughput: [14.916301727294922, 16.087871551513672, 16.397916793823242]
+master.master:1445:INFO [601.05] Task 2 (two_node_resnet18_node0) throughput: 2.452385425567627
+master.master:1446:INFO [601.05] Task 2 (two_node_resnet18_node0) full throughput: 2.37
+master.master:1447:INFO [601.05] Task 2 (two_node_resnet18_node0) average observed throughput: 2.8896416823069253
+master.master:1448:INFO [601.05] Task 2 (two_node_resnet18_node0) observed throughput: [4.09751033782959, 2.1190292835235596, 2.452385425567627]
+master.master:1445:INFO [601.05] Task 1 (two_node_resnet18_node0) throughput: 2.452359199523926
+master.master:1446:INFO [601.05] Task 1 (two_node_resnet18_node0) full throughput: 2.37
+master.master:1447:INFO [601.05] Task 1 (two_node_resnet18_node0) average observed throughput: 2.9064015547434487
+master.master:1448:INFO [601.05] Task 1 (two_node_resnet18_node0) observed throughput: [4.11665153503418, 2.150193929672241, 2.452359199523926]
+master.master:1473:INFO [601.05] Potential updates: {(1, 2): (1, 1), (3,): (1,)}
+master.master:1496:INFO [601.05] Contention map updated: a3c_node0 -> () -> [1, 1, 1]
+master.master:1500:INFO [601.05] Updating contention map for job 1
+master.master:1507:INFO [601.05] Observed task throughputs: [1, 1]
+master.master:1539:INFO [601.05] multi job case: none recorded, kv-pair two_node_resnet18_node0 -> ('two_node_resnet18_node0',) has the most tasks
+master.master:1562:INFO [601.05] for multi task job 1, contention map updated: two_node_resnet18_node0 -> ('two_node_resnet18_node0',) -> [1]
+master.master:1005:INFO [601.05] Current config: {(0, 'p3.8xlarge'): [1, 2], (1, 'c7i.2xlarge'): [3]}
+master.master:1006:INFO [601.05] Planned config: {(1, 'c7i.2xlarge'): [3], (-10, 'p3.2xlarge'): [1], (-11, 'p3.2xlarge'): [2]}
+master.master:872:INFO [601.05] Reconfiguring...
+master.master:281:INFO [601.05] Launched instance 2 of type p3.2xlarge
+master.master:281:INFO [601.05] Launched instance 3 of type p3.2xlarge
+master.master:926:INFO [601.05] Instance to launch: [2, 3]
+master.master:927:INFO [601.05] Instance to kill: [0]
+master.master:928:INFO [601.05] Job to launch: {1}
+master.master:929:INFO [601.05] Job to kill: {1}
+master.master:591:INFO [601.05] Killing job 1
+master.master:654:INFO [601.05] Killing task 1
+master.master:654:INFO [601.05] Killing task 2
+master.master:713:INFO [601.05] Launching instance 2 of type p3.2xlarge
+master.master:713:INFO [601.06] Launching instance 3 of type p3.2xlarge
+master.master:761:INFO [601.07] Kill instance 0
+master.master:771:INFO [601.07] Waiting for tasks to be killed on instance 0
+master.master:617:INFO [601.14] Launching job 1
+master.master:620:INFO [601.14] Job 1 is not ready to be launched
+master.master:673:INFO [606.42] Task 2 killed
+master.master:771:INFO [606.42] Waiting for tasks to be killed on instance 0
+master.master:673:INFO [607.17] Task 1 killed
+master.master:611:INFO [607.17] Job 1 killed
+master.master:774:INFO [607.17] Start killing instance 0
+ec2_provisioner:151:INFO [2025-02-06 02:11:46] running command: runuser -l ubuntu -c "cp ~/eva_worker_0.log ~/mount/worker_logs/"
+master.master:798:INFO [607.17] Launching task 1 on instance 2
+master.master:798:INFO [607.17] Launching task 2 on instance 3
+ec2_provisioner:151:INFO [2025-02-06 02:11:51] running command: runuser -l ubuntu -c "cp ~/eva_worker_0.log2 ~/mount/worker_logs/"
+master.master:724:INFO [617.70] Instance 3 launched
+master.master:724:INFO [617.78] Instance 2 launched
+master.master:790:INFO [617.92] Instance 0 terminated
+master.master:1021:INFO [661.05] Scheduling...
+master.master:1414:INFO [661.06] Throughput from worker 2: {}
+master.master:1414:INFO [661.06] Throughput from worker 3: {}
+master.master:1414:INFO [661.06] Throughput from worker 1: {3: 16.2939395904541}
+master.master:1419:INFO [661.06] Final throughput dict: {3: 16.2939395904541}
+master.master:1445:INFO [661.06] Task 3 (a3c_node0) throughput: 16.2939395904541
+master.master:1446:INFO [661.06] Task 3 (a3c_node0) full throughput: 13.02
+master.master:1447:INFO [661.06] Task 3 (a3c_node0) average observed throughput: 15.924007415771484
+master.master:1448:INFO [661.06] Task 3 (a3c_node0) observed throughput: [14.916301727294922, 16.087871551513672, 16.397916793823242, 16.2939395904541]
+master.master:1473:INFO [661.06] Potential updates: {(3,): (1,), (): ()}
+master.master:1496:INFO [661.06] Contention map updated: a3c_node0 -> () -> [1, 1, 1, 1]
+master.master:1005:INFO [661.06] Current config: {(1, 'c7i.2xlarge'): [3], (2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:1006:INFO [661.06] Planned config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2], (1, 'c7i.2xlarge'): [3]}
+master.master:872:INFO [661.06] Reconfiguring...
+master.master:874:INFO [661.06] No reconfiguration needed
+master.master:226:INFO [694.27] Task 3 completed on worker 1
+master.master:239:INFO [694.27] Job 2 finished
+master.master:1021:INFO [721.06] Scheduling...
+master.master:1414:INFO [721.06] Throughput from worker 2: {}
+master.master:1414:INFO [721.06] Throughput from worker 3: {}
+master.master:1414:INFO [721.07] Throughput from worker 1: {}
+master.master:1419:INFO [721.07] Final throughput dict: {}
+master.master:1473:INFO [721.07] Potential updates: {(): ()}
+master.master:1005:INFO [721.07] Current config: {(1, 'c7i.2xlarge'): [], (2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:1006:INFO [721.07] Planned config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:872:INFO [721.07] Reconfiguring...
+master.master:926:INFO [721.07] Instance to launch: []
+master.master:927:INFO [721.07] Instance to kill: [1]
+master.master:928:INFO [721.07] Job to launch: set()
+master.master:929:INFO [721.07] Job to kill: set()
+master.master:761:INFO [721.07] Kill instance 1
+master.master:774:INFO [721.07] Start killing instance 1
+ec2_provisioner:151:INFO [2025-02-06 02:13:40] running command: runuser -l ubuntu -c "cp ~/eva_worker_1.log ~/mount/worker_logs/"
+ec2_provisioner:151:INFO [2025-02-06 02:13:45] running command: runuser -l ubuntu -c "cp ~/eva_worker_1.log2 ~/mount/worker_logs/"
+master.master:790:INFO [731.77] Instance 1 terminated
+master.master:963:INFO [731.77] Reconfiguration done
+master.master:741:INFO [760.89] Worker 3 has be ran
+master.master:745:INFO [760.89] Waiting for worker 3 to register and release cv
+master.master:741:INFO [761.45] Worker 2 has be ran
+master.master:745:INFO [761.45] Waiting for worker 2 to register and release cv
+master.master:1021:INFO [781.07] Scheduling...
+master.master:1414:INFO [781.07] Throughput from worker 2: {}
+master.master:1414:INFO [781.07] Throughput from worker 3: {}
+master.master:1419:INFO [781.07] Final throughput dict: {}
+master.master:1473:INFO [781.07] Potential updates: {(): ()}
+master.master:1005:INFO [781.07] Current config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:1006:INFO [781.07] Planned config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:872:INFO [781.07] Reconfiguring...
+master.master:874:INFO [781.07] No reconfiguration needed
+rpc.master_server:21:INFO [2025-02-06 02:15:37] Registered worker 3
+master.master:748:INFO [837.54] Worker 3 has registered
+master.master:755:INFO [837.54] Instance 3 launched
+rpc.master_server:21:INFO [2025-02-06 02:15:37] Registered worker 2
+master.master:748:INFO [837.57] Worker 2 has registered
+master.master:755:INFO [837.57] Instance 2 launched
+master.master:1021:INFO [841.07] Scheduling...
+master.master:1414:INFO [841.07] Throughput from worker 2: {}
+master.master:1414:INFO [841.07] Throughput from worker 3: {}
+master.master:1419:INFO [841.07] Final throughput dict: {}
+master.master:1473:INFO [841.07] Potential updates: {}
+master.master:1005:INFO [841.07] Current config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:1006:INFO [841.07] Planned config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:872:INFO [841.07] Reconfiguring...
+master.master:874:INFO [841.07] No reconfiguration needed
+master.master:861:INFO [873.79] Task 1 starts executing on instance 2
+master.master:861:INFO [873.90] Task 2 starts executing on instance 3
+master.master:646:INFO [873.90] Job 1 launched
+master.master:963:INFO [873.90] Reconfiguration done
+master.master:1021:INFO [901.07] Scheduling...
+master.master:1414:INFO [901.08] Throughput from worker 2: {}
+master.master:1414:INFO [901.08] Throughput from worker 3: {}
+master.master:1419:INFO [901.08] Final throughput dict: {}
+master.master:1473:INFO [901.08] Potential updates: {}
+master.master:1005:INFO [901.08] Current config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:1006:INFO [901.08] Planned config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:872:INFO [901.08] Reconfiguring...
+master.master:874:INFO [901.08] No reconfiguration needed
+master.master:1021:INFO [961.08] Scheduling...
+master.master:1414:INFO [961.08] Throughput from worker 2: {}
+master.master:1414:INFO [961.08] Throughput from worker 3: {}
+master.master:1419:INFO [961.08] Final throughput dict: {}
+master.master:1473:INFO [961.08] Potential updates: {}
+master.master:1005:INFO [961.08] Current config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:1006:INFO [961.08] Planned config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:872:INFO [961.08] Reconfiguring...
+master.master:874:INFO [961.08] No reconfiguration needed
+master.master:1021:INFO [1021.08] Scheduling...
+master.master:1414:INFO [1021.09] Throughput from worker 3: {}
+master.master:1414:INFO [1021.09] Throughput from worker 2: {}
+master.master:1419:INFO [1021.09] Final throughput dict: {}
+master.master:1473:INFO [1021.09] Potential updates: {}
+master.master:1005:INFO [1021.09] Current config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:1006:INFO [1021.09] Planned config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:872:INFO [1021.09] Reconfiguring...
+master.master:874:INFO [1021.09] No reconfiguration needed
+master.master:1021:INFO [1081.09] Scheduling...
+master.master:1414:INFO [1081.10] Throughput from worker 3: {2: 2.0271337032318115}
+master.master:1414:INFO [1081.10] Throughput from worker 2: {1: 1.8151530027389526}
+master.master:1419:INFO [1081.10] Final throughput dict: {2: 2.0271337032318115, 1: 1.8151530027389526}
+master.master:1445:INFO [1081.10] Task 2 (two_node_resnet18_node0) throughput: 2.0271337032318115
+master.master:1446:INFO [1081.10] Task 2 (two_node_resnet18_node0) full throughput: 2.37
+master.master:1447:INFO [1081.10] Task 2 (two_node_resnet18_node0) average observed throughput: 2.674014687538147
+master.master:1448:INFO [1081.10] Task 2 (two_node_resnet18_node0) observed throughput: [4.09751033782959, 2.1190292835235596, 2.452385425567627, 2.0271337032318115]
+master.master:1445:INFO [1081.10] Task 1 (two_node_resnet18_node0) throughput: 1.8151530027389526
+master.master:1446:INFO [1081.10] Task 1 (two_node_resnet18_node0) full throughput: 2.37
+master.master:1447:INFO [1081.10] Task 1 (two_node_resnet18_node0) average observed throughput: 2.633589416742325
+master.master:1448:INFO [1081.11] Task 1 (two_node_resnet18_node0) observed throughput: [4.11665153503418, 2.150193929672241, 2.452359199523926, 1.8151530027389526]
+master.master:1473:INFO [1081.11] Potential updates: {(1,): (0.7658873429278281,), (2,): (0.8553306764691188,)}
+master.master:1500:INFO [1081.11] Updating contention map for job 1
+master.master:1507:INFO [1081.11] Observed task throughputs: [0.7658873429278281, 0.8553306764691188]
+master.master:1539:INFO [1081.11] multi job case: none recorded, kv-pair two_node_resnet18_node0 -> () has the most tasks
+master.master:1562:INFO [1081.11] for multi task job 1, contention map updated: two_node_resnet18_node0 -> () -> [0.7658873429278281]
+master.master:1005:INFO [1081.11] Current config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:1006:INFO [1081.11] Planned config: {(2, 'p3.2xlarge'): [1], (3, 'p3.2xlarge'): [2]}
+master.master:872:INFO [1081.11] Reconfiguring...
+master.master:874:INFO [1081.11] No reconfiguration needed
+master.master:226:INFO [1105.72] Task 2 completed on worker 3
+master.master:226:INFO [1107.12] Task 1 completed on worker 2
+master.master:239:INFO [1107.12] Job 1 finished
+master.master:1021:INFO [1141.11] Scheduling...
+master.master:1414:INFO [1141.11] Throughput from worker 3: {}
+master.master:1414:INFO [1141.11] Throughput from worker 2: {}
+master.master:1419:INFO [1141.11] Final throughput dict: {}
+master.master:1473:INFO [1141.11] Potential updates: {(): ()}
+master.master:1005:INFO [1141.11] Current config: {(2, 'p3.2xlarge'): [], (3, 'p3.2xlarge'): []}
+master.master:1006:INFO [1141.11] Planned config: {}
+master.master:872:INFO [1141.11] Reconfiguring...
+master.master:926:INFO [1141.11] Instance to launch: []
+master.master:927:INFO [1141.11] Instance to kill: [2, 3]
+master.master:928:INFO [1141.11] Job to launch: set()
+master.master:929:INFO [1141.11] Job to kill: set()
+master.master:761:INFO [1141.11] Kill instance 2
+master.master:774:INFO [1141.11] Start killing instance 2
+ec2_provisioner:151:INFO [2025-02-06 02:20:40] running command: runuser -l ubuntu -c "cp ~/eva_worker_2.log ~/mount/worker_logs/"
+master.master:761:INFO [1141.11] Kill instance 3
+master.master:774:INFO [1141.11] Start killing instance 3
+ec2_provisioner:151:INFO [2025-02-06 02:20:40] running command: runuser -l ubuntu -c "cp ~/eva_worker_3.log ~/mount/worker_logs/"
+ec2_provisioner:151:INFO [2025-02-06 02:20:45] running command: runuser -l ubuntu -c "cp ~/eva_worker_2.log2 ~/mount/worker_logs/"
+ec2_provisioner:151:INFO [2025-02-06 02:20:45] running command: runuser -l ubuntu -c "cp ~/eva_worker_3.log2 ~/mount/worker_logs/"
+master.master:790:INFO [1151.88] Instance 2 terminated
+master.master:790:INFO [1152.28] Instance 3 terminated
+master.master:963:INFO [1152.28] Reconfiguration done
+master.master:1021:INFO [1201.11] Scheduling...
+master.master:1419:INFO [1201.11] Final throughput dict: {}
+master.master:1473:INFO [1201.11] Potential updates: {}
+master.master:1005:INFO [1201.11] Current config: {}
+master.master:1006:INFO [1201.11] Planned config: {}
+master.master:872:INFO [1201.11] Reconfiguring...
+master.master:874:INFO [1201.11] No reconfiguration needed
+master.master:1021:INFO [1261.11] Scheduling...
+master.master:1419:INFO [1261.11] Final throughput dict: {}
+master.master:1473:INFO [1261.11] Potential updates: {}
+master.master:1005:INFO [1261.11] Current config: {}
+master.master:1006:INFO [1261.11] Planned config: {}
+master.master:872:INFO [1261.11] Reconfiguring...
+master.master:874:INFO [1261.11] No reconfiguration needed
+master.master:1021:INFO [1321.11] Scheduling...
+master.master:1419:INFO [1321.11] Final throughput dict: {}
+master.master:1473:INFO [1321.11] Potential updates: {}
+master.master:1005:INFO [1321.11] Current config: {}
+master.master:1006:INFO [1321.11] Planned config: {}
+master.master:872:INFO [1321.11] Reconfiguring...
+master.master:874:INFO [1321.11] No reconfiguration needed
+master.master:1021:INFO [1381.11] Scheduling...
+master.master:1419:INFO [1381.11] Final throughput dict: {}
+master.master:1473:INFO [1381.11] Potential updates: {}
+master.master:1005:INFO [1381.11] Current config: {}
+master.master:1006:INFO [1381.11] Planned config: {}
+master.master:872:INFO [1381.11] Reconfiguring...
+master.master:874:INFO [1381.11] No reconfiguration needed
+master.master:1021:INFO [1441.11] Scheduling...
+master.master:1419:INFO [1441.11] Final throughput dict: {}
+master.master:1473:INFO [1441.11] Potential updates: {}
+master.master:1005:INFO [1441.11] Current config: {}
+master.master:1006:INFO [1441.11] Planned config: {}
+master.master:872:INFO [1441.11] Reconfiguring...
+master.master:874:INFO [1441.11] No reconfiguration needed
+master.master:1021:INFO [1501.11] Scheduling...
+master.master:1419:INFO [1501.12] Final throughput dict: {}
+master.master:1473:INFO [1501.12] Potential updates: {}
+master.master:1005:INFO [1501.12] Current config: {}
+master.master:1006:INFO [1501.12] Planned config: {}
+master.master:872:INFO [1501.12] Reconfiguring...
+master.master:874:INFO [1501.12] No reconfiguration needed
+master.master:1021:INFO [1561.12] Scheduling...
+master.master:1419:INFO [1561.12] Final throughput dict: {}
+master.master:1473:INFO [1561.12] Potential updates: {}
+master.master:1005:INFO [1561.12] Current config: {}
+master.master:1006:INFO [1561.12] Planned config: {}
+master.master:872:INFO [1561.12] Reconfiguring...
+master.master:874:INFO [1561.12] No reconfiguration needed
+master.master:1021:INFO [1621.12] Scheduling...
+master.master:1419:INFO [1621.12] Final throughput dict: {}
+master.master:1473:INFO [1621.12] Potential updates: {}
+master.master:1005:INFO [1621.12] Current config: {}
+master.master:1006:INFO [1621.12] Planned config: {}
+master.master:872:INFO [1621.12] Reconfiguring...
+master.master:874:INFO [1621.12] No reconfiguration needed
+master.master:1021:INFO [1681.12] Scheduling...
+master.master:1419:INFO [1681.12] Final throughput dict: {}
+master.master:1473:INFO [1681.12] Potential updates: {}
+master.master:1005:INFO [1681.12] Current config: {}
+master.master:1006:INFO [1681.12] Planned config: {}
+master.master:872:INFO [1681.12] Reconfiguring...
+master.master:874:INFO [1681.12] No reconfiguration needed
+master.master:1021:INFO [1741.12] Scheduling...
+master.master:1419:INFO [1741.12] Final throughput dict: {}
+master.master:1473:INFO [1741.12] Potential updates: {}
+master.master:1005:INFO [1741.12] Current config: {}
+master.master:1006:INFO [1741.12] Planned config: {}
+master.master:872:INFO [1741.12] Reconfiguring...
+master.master:874:INFO [1741.12] No reconfiguration needed
+master.master:1021:INFO [1801.12] Scheduling...
+master.master:1419:INFO [1801.12] Final throughput dict: {}
+master.master:1473:INFO [1801.12] Potential updates: {}
+master.master:1005:INFO [1801.12] Current config: {}
+master.master:1006:INFO [1801.12] Planned config: {}
+master.master:872:INFO [1801.12] Reconfiguring...
+master.master:874:INFO [1801.12] No reconfiguration needed
+master.master:1021:INFO [1861.12] Scheduling...
+master.master:1419:INFO [1861.12] Final throughput dict: {}
+master.master:1473:INFO [1861.12] Potential updates: {}
+master.master:1005:INFO [1861.12] Current config: {}
+master.master:1006:INFO [1861.12] Planned config: {}
+master.master:872:INFO [1861.12] Reconfiguring...
+master.master:874:INFO [1861.12] No reconfiguration needed
+master.master:1021:INFO [1921.12] Scheduling...
+master.master:1419:INFO [1921.12] Final throughput dict: {}
+master.master:1473:INFO [1921.12] Potential updates: {}
+master.master:1005:INFO [1921.12] Current config: {}
+master.master:1006:INFO [1921.12] Planned config: {}
+master.master:872:INFO [1921.12] Reconfiguring...
+master.master:874:INFO [1921.12] No reconfiguration needed

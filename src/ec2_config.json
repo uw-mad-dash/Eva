@@ -1,0 +1,341 @@
+{
+    "region": "us-east-1",
+    "instance_types": {
+        "p3.2xlarge": {
+            "capacity": [1, 4, 61],
+            "cost": 3.06,
+            "family": "p3",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-051066017116e666c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "p3.2xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "p3.8xlarge": {
+            "capacity": [4, 16, 244],
+            "cost": 12.24,
+            "family": "p3",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-051066017116e666c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "p3.8xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "p3.16xlarge": {
+            "capacity": [8, 32, 488],
+            "cost": 24.48,
+            "family": "p3",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-051066017116e666c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "p3.16xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "c7i.large": {
+            "capacity": [0, 1, 4],
+            "cost": 0.08925,
+            "family": "c7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "c7i.large",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "c7i.xlarge": {
+            "capacity": [0, 2, 8],
+            "cost": 0.1785,
+            "family": "c7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "c7i.xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "c7i.2xlarge": {
+            "capacity": [0, 4, 16],
+            "cost": 0.357,
+            "family": "c7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "c7i.2xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "c7i.4xlarge": {
+            "capacity": [0, 8, 32],
+            "cost": 0.714,
+            "family": "c7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "c7i.4xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "c7i.8xlarge": {
+            "capacity": [0, 16, 64],
+            "cost": 1.428,
+            "family": "c7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "c7i.8xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "c7i.12xlarge": {
+            "capacity": [0, 24, 96],
+            "cost": 2.142,
+            "family": "c7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "c7i.12xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        }, 
+        "c7i.16xlarge": {
+            "capacity": [0, 32, 128],
+            "cost": 2.856,
+            "family": "c7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "c7i.16xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "c7i.24xlarge": {
+            "capacity": [0, 48, 192],
+            "cost": 4.284,
+            "family": "c7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "c7i.24xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "c7i.48xlarge": {
+            "capacity": [0, 96, 384],
+            "cost": 8.568,
+            "family": "c7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "c7i.48xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "r7i.large": {
+            "capacity": [0, 1, 16],
+            "cost": 0.1323,
+            "family": "r7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "r7i.large",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "r7i.xlarge": {
+            "capacity": [0, 2, 32],
+            "cost": 0.2646,
+            "family": "r7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "r7i.xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "r7i.2xlarge": {
+            "capacity": [0, 4, 64],
+            "cost": 0.5292,
+            "family": "r7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "r7i.2xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "r7i.4xlarge": {
+            "capacity": [0, 8, 128],
+            "cost": 1.0584,
+            "family": "r7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "r7i.4xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "r7i.8xlarge": {
+            "capacity": [0, 16, 256],
+            "cost": 2.1168,
+            "family": "r7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "r7i.8xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "r7i.12xlarge": {
+            "capacity": [0, 24, 384],
+            "cost": 3.1752,
+            "family": "r7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "r7i.12xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "r7i.16xlarge": {
+            "capacity": [0, 32, 512],
+            "cost": 4.2336,
+            "family": "r7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "r7i.16xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "r7i.24xlarge": {
+            "capacity": [0, 48, 768],
+            "cost": 6.3504,
+            "family": "r7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "r7i.24xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        },
+        "r7i.48xlarge": {
+            "capacity": [0, 96, 1536],
+            "cost": 12.7008,
+            "family": "r7i",
+            "launch_cfg":{
+                "key_name": "eva_artifacts",
+                "group_name": "eva-job",
+                "availability_zone": "us-east-1a",
+                "ami_id": "ami-0268d3feefbce5e9c",
+                "iam_role_name": "eva-ec2-s3-full-access",
+                "instance_type": "r7i.48xlarge",
+                "instance_count": 1,
+                "security_group": ["launch-wizard-18"]
+            },
+            "ssh_user": "ubuntu"
+        }
+    }
+}

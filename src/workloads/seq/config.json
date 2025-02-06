@@ -1,0 +1,37 @@
+{
+    "name": "seq",
+    "tasks": [
+        {
+            "name": "node0",
+            "dir": "./",
+            "download_exclude_list": [],
+            "demand": {
+                "p3": [
+                    0,
+                    14,
+                    16
+                ],
+                "c7i": [
+                    0,
+                    8,
+                    16
+                ],
+                "r7i": [
+                    0,
+                    8,
+                    16
+                ]
+            },
+            "shm_size": 1,
+            "full_throughput": 0.008324104361236095
+        }
+    ],
+    "total_iters": 88,
+    "support_throughput_aware": true,
+    "duration": 5798,
+    "init_delay": 12,
+    "fetch_delay": 3,
+    "build_image_delay": 10,
+    "kill_delay": 1,
+    "upload_delay": 5
+}

@@ -1,0 +1,8 @@
+numpy
+matplotlib
+orjson
+multiset
+boto3
+grpcio-tools
+docker
+build

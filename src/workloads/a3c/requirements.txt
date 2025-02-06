@@ -1,0 +1,5 @@
+opencv-python
+setuptools==65.5.0
+wheel==0.38.4
+gym[atari,accept-rom-license]==0.21.0
+setproctitle

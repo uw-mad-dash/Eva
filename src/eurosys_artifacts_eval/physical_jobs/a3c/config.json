@@ -1,0 +1,37 @@
+{
+    "name": "a3c",
+    "tasks": [
+        {
+            "name": "node0",
+            "dir": "./",
+            "download_exclude_list": [],
+            "demand": {
+                "p3": [
+                    0,
+                    10,
+                    8
+                ],
+                "c7i": [
+                    0,
+                    4,
+                    8
+                ],
+                "r7i": [
+                    0,
+                    4,
+                    8
+                ]
+            },
+            "shm_size": 1,
+            "full_throughput": 13.02 
+        }
+    ],
+    "total_iters": 4000,
+    "support_throughput_aware": true,
+    "duration": 253,
+    "init_delay": 10,
+    "fetch_delay": 1,
+    "build_image_delay": 10,
+    "kill_delay": 1,
+    "upload_delay": 1
+}

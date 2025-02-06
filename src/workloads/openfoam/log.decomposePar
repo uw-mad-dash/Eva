@@ -1,0 +1,305 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2312                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _c39a0f64-20231220 OPENFOAM=2312 version=2312
+Arch   : "LSB;label=32;scalar=64"
+Exec   : decomposePar
+Date   : May 03 2024
+Time   : 22:55:18
+Host   : 297ff3eae649
+PID    : 234
+I/O    : uncollated
+Case   : /home
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleTurbulenceModel.so"
+libincompressibleTurbulenceModel.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleRASModels.so"
+libincompressibleRASModels.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+
+
+Decomposing mesh
+
+Create mesh
+
+Calculating distribution of cells
+Decomposition method scotch [8] (region region0)
+
+Finished decomposition in 0.13 s
+
+Calculating original mesh data
+
+Distributing cells to processors
+
+Distributing faces to processors
+
+Distributing points to processors
+
+Constructing processor meshes
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+
+Processor 0
+    Number of cells = 4288
+    Number of points = 5185
+    Number of faces shared with processor 1 = 404
+    Number of faces shared with processor 3 = 280
+    Number of faces shared with processor 6 = 264
+    Number of processor patches = 3
+    Number of processor faces = 948
+    Number of boundary faces = 740
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+
+Processor 1
+    Number of cells = 4328
+    Number of points = 5261
+    Number of faces shared with processor 0 = 404
+    Number of faces shared with processor 2 = 361
+    Number of faces shared with processor 3 = 31
+    Number of faces shared with processor 4 = 288
+    Number of faces shared with processor 6 = 24
+    Number of processor patches = 5
+    Number of processor faces = 1108
+    Number of boundary faces = 650
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+
+Processor 2
+    Number of cells = 4310
+    Number of points = 5255
+    Number of faces shared with processor 1 = 361
+    Number of faces shared with processor 3 = 364
+    Number of processor patches = 2
+    Number of processor faces = 725
+    Number of boundary faces = 1055
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+
+Processor 3
+    Number of cells = 4354
+    Number of points = 5250
+    Number of faces shared with processor 0 = 280
+    Number of faces shared with processor 1 = 31
+    Number of faces shared with processor 2 = 364
+    Number of processor patches = 3
+    Number of processor faces = 675
+    Number of boundary faces = 1011
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+
+Processor 4
+    Number of cells = 4320
+    Number of points = 5213
+    Number of faces shared with processor 1 = 288
+    Number of faces shared with processor 5 = 312
+    Number of faces shared with processor 6 = 359
+    Number of faces shared with processor 7 = 1
+    Number of processor patches = 4
+    Number of processor faces = 960
+    Number of boundary faces = 720
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+
+Processor 5
+    Number of cells = 4320
+    Number of points = 5213
+    Number of faces shared with processor 4 = 312
+    Number of faces shared with processor 6 = 1
+    Number of faces shared with processor 7 = 359
+    Number of processor patches = 3
+    Number of processor faces = 672
+    Number of boundary faces = 1008
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+
+Processor 6
+    Number of cells = 4320
+    Number of points = 5213
+    Number of faces shared with processor 0 = 264
+    Number of faces shared with processor 1 = 24
+    Number of faces shared with processor 4 = 359
+    Number of faces shared with processor 5 = 1
+    Number of faces shared with processor 7 = 312
+    Number of processor patches = 5
+    Number of processor faces = 960
+    Number of boundary faces = 720
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+
+Processor 7
+    Number of cells = 4320
+    Number of points = 5213
+    Number of faces shared with processor 4 = 1
+    Number of faces shared with processor 5 = 359
+    Number of faces shared with processor 6 = 312
+    Number of processor patches = 3
+    Number of processor faces = 672
+    Number of boundary faces = 1008
+
+Number of processor faces = 3360
+Max number of cells = 4354 (0.787037% above average 4320)
+Max number of processor patches = 5 (42.8571% above average 3.5)
+Max number of faces between processors = 1108 (31.9048% above average 840)
+
+Time = 0
+
+Processor 0: field transfer
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleTurbulenceModel.so"
+libincompressibleTurbulenceModel.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleRASModels.so"
+libincompressibleRASModels.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+Processor 1: field transfer
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleTurbulenceModel.so"
+libincompressibleTurbulenceModel.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleRASModels.so"
+libincompressibleRASModels.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+Processor 2: field transfer
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleTurbulenceModel.so"
+libincompressibleTurbulenceModel.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleRASModels.so"
+libincompressibleRASModels.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+Processor 3: field transfer
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleTurbulenceModel.so"
+libincompressibleTurbulenceModel.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleRASModels.so"
+libincompressibleRASModels.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+Processor 4: field transfer
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleTurbulenceModel.so"
+libincompressibleTurbulenceModel.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleRASModels.so"
+libincompressibleRASModels.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+Processor 5: field transfer
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleTurbulenceModel.so"
+libincompressibleTurbulenceModel.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleRASModels.so"
+libincompressibleRASModels.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+Processor 6: field transfer
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleTurbulenceModel.so"
+libincompressibleTurbulenceModel.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleRASModels.so"
+libincompressibleRASModels.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+Processor 7: field transfer
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleTurbulenceModel.so"
+libincompressibleTurbulenceModel.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From void* Foam::dlLibraryTable::openLibrary(const Foam::fileName&, bool)
+    in file db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C at line 188
+    Could not load "libincompressibleRASModels.so"
+libincompressibleRASModels.so: cannot open shared object file: No such file or directory
+--> FOAM Warning : 
+    From static Foam::IOstreamOption::compressionType Foam::IOstreamOption::compressionEnum(const Foam::word&, Foam::IOstreamOption::compressionType)
+    in file db/options/IOstreamOption.C at line 171
+    Unknown compression specifier 'uncompressed' using compression off
+
+End
+

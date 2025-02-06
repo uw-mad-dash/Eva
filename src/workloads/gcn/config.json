@@ -1,0 +1,37 @@
+{
+    "name": "gcn",
+    "tasks": [
+        {
+            "name": "node0",
+            "dir": "./",
+            "download_exclude_list": [],
+            "demand": {
+                "p3": [
+                    0,
+                    12,
+                    40
+                ],
+                "c7i": [
+                    0,
+                    6,
+                    40
+                ],
+                "r7i": [
+                    0,
+                    6,
+                    40
+                ]
+            },
+            "shm_size": 8,
+            "full_throughput": 0.165
+        }
+    ],
+    "duration": 2240,
+    "total_iters": 370,
+    "support_throughput_aware": true,
+    "init_delay": 28,
+    "fetch_delay": 1,
+    "build_image_delay": 10,
+    "kill_delay": 1,
+    "upload_delay": 1
+}

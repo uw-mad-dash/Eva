@@ -1,0 +1,2 @@
+unzip
+aws-cli (see website for installation)

@@ -1,0 +1,13 @@
+{
+    "name": "gnmt",
+    "tasks": [
+        {
+            "name": "node0",
+            "dir": "./",
+            "download_exclude_list": [],
+            "demand": [4, 16, 32],
+            "shm_size": 1
+        }
+    ],
+    "init_delay": 224
+}

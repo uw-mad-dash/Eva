@@ -1,0 +1,37 @@
+{
+    "name": "openfoam",
+    "tasks": [
+        {
+            "name": "node0",
+            "dir": "./",
+            "download_exclude_list": [],
+            "demand": {
+                "p3": [
+                    0,
+                    8,
+                    8
+                ],
+                "c7i": [
+                    0,
+                    6,
+                    8
+                ],
+                "r7i": [
+                    0,
+                    6,
+                    8
+                ]
+            },
+            "shm_size": 1,
+            "full_throughput": 8.4
+        }
+    ],
+    "duration": 8220,
+    "total_iters": 61403,
+    "support_throughput_aware": true,
+    "init_delay": 1,
+    "fetch_delay": 7,
+    "build_image_delay": 10,
+    "kill_delay": 1,
+    "upload_delay": 14
+}

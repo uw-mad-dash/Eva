@@ -1,0 +1,21 @@
+{
+    "name": "resnet18",
+    "tasks": [
+        {
+            "name": "node0",
+            "dir": "./",
+            "download_exclude_list": [],
+            "demand": {"any": [1, 4, 24]},
+            "shm_size": 4,
+            "full_throughput": 2.1
+        }
+    ],
+    "total_iters": 10010,
+    "support_throughput_aware": true,
+    "duration": 4408,
+    "init_delay": 80,
+    "fetch_delay": 1,
+    "build_image_delay": 10,
+    "kill_delay": 1,
+    "upload_delay": 1
+}

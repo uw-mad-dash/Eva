@@ -1,0 +1,21 @@
+{
+    "name": "cyclegan",
+    "tasks": [
+        {
+            "name": "node0",
+            "dir": "./",
+            "download_exclude_list": [],
+            "demand": {"any": [1, 4, 10]},
+            "shm_size": 1,
+            "full_throughput": 1.1394022428072417
+        }
+    ],
+    "total_iters": 1000,
+    "support_throughput_aware": true,
+    "duration": 878,
+    "init_delay": 2,
+    "fetch_delay": 2,
+    "build_image_delay": 10,
+    "kill_delay": 1,
+    "upload_delay": 5
+}

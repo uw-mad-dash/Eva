@@ -1,0 +1,21 @@
+{
+    "name": "gpt2",
+    "tasks": [
+        {
+            "name": "node0",
+            "dir": "./",
+            "download_exclude_list": [],
+            "demand": {"any": [4, 4, 10]},
+            "shm_size": 1,
+            "full_throughput": 3.305535078048706
+        }
+    ],
+    "total_iters": 10824,
+    "support_throughput_aware": true,
+    "duration": 3275,
+    "init_delay": 15,
+    "fetch_delay": 10,
+    "build_image_delay": 10,
+    "kill_delay": 1,
+    "upload_delay": 20 
+}

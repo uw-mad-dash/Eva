@@ -1,0 +1,326 @@
+{
+    "a3c": {
+        "name": "a3c",
+        "tasks": [
+            {
+                "name": "node0",
+                "dir": "./",
+                "download_exclude_list": [],
+                "demand": {
+                    "p3": [
+                        0,
+                        10,
+                        8
+                    ],
+                    "c7i": [
+                        0,
+                        4,
+                        8
+                    ],
+                    "r7i": [
+                        0,
+                        4,
+                        8
+                    ]
+                },
+                "shm_size": 1,
+                "full_throughput": 12.736207246780396
+            }
+        ],
+        "total_iters": 1000,
+        "support_throughput_aware": true,
+        "duration": 79,
+        "init_delay": 10,
+        "fetch_delay": 1,
+        "build_image_delay": 10,
+        "kill_delay": 1,
+        "upload_delay": 1
+    },
+    "cyclegan": {
+        "name": "cyclegan",
+        "tasks": [
+            {
+                "name": "node0",
+                "dir": "./",
+                "download_exclude_list": [],
+                "demand": {
+                    "any": [
+                        1,
+                        4,
+                        10
+                    ]
+                },
+                "shm_size": 1,
+                "full_throughput": 1.1394022428072417
+            }
+        ],
+        "total_iters": 1000,
+        "support_throughput_aware": true,
+        "duration": 878,
+        "init_delay": 2,
+        "fetch_delay": 2,
+        "build_image_delay": 10,
+        "kill_delay": 1,
+        "upload_delay": 5
+    },
+    "gcn": {
+        "name": "gcn",
+        "tasks": [
+            {
+                "name": "node0",
+                "dir": "./",
+                "download_exclude_list": [],
+                "demand": {
+                    "p3": [
+                        0,
+                        12,
+                        40
+                    ],
+                    "c7i": [
+                        0,
+                        6,
+                        40
+                    ],
+                    "r7i": [
+                        0,
+                        6,
+                        40
+                    ]
+                },
+                "shm_size": 8,
+                "full_throughput": 0.16014614275523595
+            }
+        ],
+        "duration": 6244,
+        "total_iters": 1000,
+        "support_throughput_aware": true,
+        "init_delay": 28,
+        "fetch_delay": 1,
+        "build_image_delay": 10,
+        "kill_delay": 1,
+        "upload_delay": 1
+    },
+    "gpt2": {
+        "name": "gpt2",
+        "tasks": [
+            {
+                "name": "node0",
+                "dir": "./",
+                "download_exclude_list": [],
+                "demand": {
+                    "any": [
+                        4,
+                        4,
+                        10
+                    ]
+                },
+                "shm_size": 1,
+                "full_throughput": 3.305535078048706
+            }
+        ],
+        "total_iters": 10824,
+        "support_throughput_aware": true,
+        "duration": 3275,
+        "init_delay": 15,
+        "fetch_delay": 10,
+        "build_image_delay": 10,
+        "kill_delay": 1,
+        "upload_delay": 20
+    },
+    "openfoam": {
+        "name": "openfoam",
+        "tasks": [
+            {
+                "name": "node0",
+                "dir": "./",
+                "download_exclude_list": [],
+                "demand": {
+                    "p3": [
+                        0,
+                        8,
+                        8
+                    ],
+                    "c7i": [
+                        0,
+                        6,
+                        8
+                    ],
+                    "r7i": [
+                        0,
+                        6,
+                        8
+                    ]
+                },
+                "shm_size": 1,
+                "full_throughput": 8.4
+            }
+        ],
+        "duration": 8220,
+        "total_iters": 61403,
+        "support_throughput_aware": true,
+        "init_delay": 1,
+        "fetch_delay": 7,
+        "build_image_delay": 10,
+        "kill_delay": 1,
+        "upload_delay": 14
+    },
+    "sage": {
+        "name": "sage",
+        "tasks": [
+            {
+                "name": "node0",
+                "dir": "./",
+                "download_exclude_list": [],
+                "demand": {
+                    "any": [
+                        1,
+                        8,
+                        50
+                    ]
+                },
+                "shm_size": 16,
+                "full_throughput": 2.433017451763153
+            }
+        ],
+        "total_iters": 10280,
+        "support_throughput_aware": true,
+        "duration": 4225,
+        "init_delay": 160,
+        "fetch_delay": 1,
+        "build_image_delay": 10,
+        "kill_delay": 1,
+        "upload_delay": 1
+    },
+    "seq": {
+        "name": "seq",
+        "tasks": [
+            {
+                "name": "node0",
+                "dir": "./",
+                "download_exclude_list": [],
+                "demand": {
+                    "p3": [
+                        0,
+                        14,
+                        16
+                    ],
+                    "c7i": [
+                        0,
+                        8,
+                        16
+                    ],
+                    "r7i": [
+                        0,
+                        8,
+                        16
+                    ]
+                },
+                "shm_size": 1,
+                "full_throughput": 0.008324104361236095
+            }
+        ],
+        "total_iters": 88,
+        "support_throughput_aware": true,
+        "duration": 5798,
+        "init_delay": 12,
+        "fetch_delay": 3,
+        "build_image_delay": 10,
+        "kill_delay": 1,
+        "upload_delay": 5
+    },
+    "resnet18": {
+        "name": "resnet18",
+        "tasks": [
+            {
+                "name": "node0",
+                "dir": "./",
+                "download_exclude_list": [],
+                "demand": {
+                    "any": [
+                        1,
+                        4,
+                        24
+                    ]
+                },
+                "shm_size": 4,
+                "full_throughput": 2.1
+            }
+        ],
+        "total_iters": 10010,
+        "support_throughput_aware": true,
+        "duration": 4408,
+        "init_delay": 80,
+        "fetch_delay": 1,
+        "build_image_delay": 10,
+        "kill_delay": 1,
+        "upload_delay": 1
+    },
+    "vit": {
+        "name": "vit",
+        "tasks": [
+            {
+                "name": "node0",
+                "dir": "./",
+                "download_exclude_list": [],
+                "demand": {
+                    "any": [
+                        2,
+                        8,
+                        60
+                    ]
+                },
+                "shm_size": 4,
+                "full_throughput": 2.3503475870404924
+            }
+        ],
+        "total_iters": 10010,
+        "support_throughput_aware": true,
+        "duration": 4259,
+        "init_delay": 143,
+        "fetch_delay": 1,
+        "build_image_delay": 10,
+        "kill_delay": 1,
+        "upload_delay": 2
+    },
+    "two_node_Resnet18": {
+        "name": "resnet18",
+        "tasks": [
+            {
+                "name": "node0",
+                "dir": "worker0/",
+                "download_exclude_list": [],
+                "demand": {
+                    "any": [
+                        1,
+                        4,
+                        24
+                    ]
+                },
+                "shm_size": 4,
+                "full_throughput": 2.6
+            },
+            {
+                "name": "node0",
+                "dir": "worker1/",
+                "download_exclude_list": [],
+                "demand": {
+                    "any": [
+                        1,
+                        4,
+                        24
+                    ]
+                },
+                "shm_size": 4,
+                "full_throughput": 2.6
+            }
+        ],
+        "total_iters": 5050,
+        "support_throughput_aware": true,
+        "duration": 4408,
+        "init_delay": 80,
+        "fetch_delay": 1,
+        "build_image_delay": 10,
+        "kill_delay": 1,
+        "upload_delay": 1
+    }
+}

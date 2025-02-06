@@ -1,0 +1,45 @@
+{
+    "name": "four_node_resnet18",
+    "tasks": [
+        {
+            "name": "node0",
+            "dir": "worker0/",
+            "download_exclude_list": [],
+            "demand": {"any": [1, 4, 24]},
+            "shm_size": 4,
+            "full_throughput": 2.23 
+        },
+        {
+            "name": "node0",
+            "dir": "worker1/",
+            "download_exclude_list": [],
+            "demand": {"any": [1, 4, 24]},
+            "shm_size": 4,
+            "full_throughput": 2.23
+        },
+        {
+            "name": "node0",
+            "dir": "worker2/",
+            "download_exclude_list": [],
+            "demand": {"any": [1, 4, 24]},
+            "shm_size": 4,
+            "full_throughput": 2.23
+        },
+        {
+            "name": "node0",
+            "dir": "worker3/",
+            "download_exclude_list": [],
+            "demand": {"any": [1, 4, 24]},
+            "shm_size": 4,
+            "full_throughput": 2.23
+        }
+    ],
+    "total_iters": 5005,
+    "support_throughput_aware": true,
+    "duration": 2466,
+    "init_delay": 80,
+    "fetch_delay": 1,
+    "build_image_delay": 10,
+    "kill_delay": 1,
+    "upload_delay": 1
+}

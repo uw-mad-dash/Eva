@@ -1,0 +1,37 @@
+{
+    "eva_ip_addr": "172.31.17.248",
+    "eva_port": 50422,
+    "master_ip_addr": "172.31.17.248",
+    "master_port": 50423,
+    "worker_port": 50617,
+    "worker_working_dir": "~/eva_worker",
+    "mount_dir": "~/mount",
+    "datasets_dir": "~/mount/datasets",
+    "swarm_ip_addr": "172.31.17.248",
+    "swarm_port": 2377,
+    "docker_subnet": "10.0.0.0/16",
+    "docker_iprange": "10.0.255.0/24",
+    "iterator_port": 50622,
+    "scheduling_interval": 60,
+    "report_interval": 10,
+    "report_file": "~/eva_report.json",
+    "mode": "physical",
+    "cloud_provisioner": {
+        "class_name": "EC2Provisioner",
+        "args":{
+            "config_path": "/home/ubuntu/eva/src/ec2_config.json"
+        }
+    },
+    "storage_manager": {
+        "class_name": "S3Manager",
+        "args": {
+            "bucket_name": "eva-artifacts-eval"
+        }
+    },
+    "scheduler": {
+        "class_name": "EVAGangScheduler",
+        "args": {
+        }
+    },
+    "verbose": true
+}

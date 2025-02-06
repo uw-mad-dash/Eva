@@ -1,0 +1,90 @@
+[2024-05-25 10:43:13] [0.00] Setup EVAIterator: EvaIterator(_log_file=./eva_iterator.log, _file_handler=<FileHandler /home/src/eva_iterator.log (DEBUG)>, _orig_logger=<Logger eva_iterator.eva_iterator (DEBUG)>, _logger=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _logging_handler=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _data_loader=range(1, 1000000000), _min_sample_time=1, _min_sample_steps=1, _test_mode=True, _test_mode_log_period=60, _job_id=0, _task_id=0, _worker_ip_addr=None, _worker_port=None, _iterator_ip_addr=localhost, _iterator_port=50123, _eva_start_timestamp=1716633793.570694, _server_thread=<Thread(Thread-1 (serve), started daemon 140421028111936)>, _throughput_start_time=None, _throughput_start_step=None, _first_step_time=None, _cur_step_time=None, _cur_step=0, _iterator=None)
+[2024-05-25 10:44:13] [60.05] Getting throughput - duration: 60.01886177062988, steps: 159, ready: True, throughput: 2.64916720026514
+[2024-05-25 10:45:13] [120.11] Getting throughput - duration: 59.920366048812866, steps: 207, ready: True, throughput: 3.454585037604273
+[2024-05-25 10:46:13] [180.17] Getting throughput - duration: 60.146029472351074, steps: 205, ready: True, throughput: 3.408371288984883
+[2024-05-25 10:47:13] [240.19] Getting throughput - duration: 59.78958606719971, steps: 203, ready: True, throughput: 3.395240097026945
+[2024-05-25 10:48:13] [300.24] Getting throughput - duration: 60.10512399673462, steps: 203, ready: True, throughput: 3.3774158757417845
+[2024-05-25 10:49:13] [360.30] Getting throughput - duration: 60.20802617073059, steps: 204, ready: True, throughput: 3.3882525798391336
+[2024-05-25 10:50:13] [420.36] Getting throughput - duration: 60.15631985664368, steps: 204, ready: True, throughput: 3.3911648931674168
+[2024-05-25 10:51:13] [480.42] Getting throughput - duration: 60.066484212875366, steps: 204, ready: True, throughput: 3.396236731236422
+[2024-05-25 10:52:12] [0.00] Setup EVAIterator: EvaIterator(_log_file=./eva_iterator.log, _file_handler=<FileHandler /home/src/eva_iterator.log (DEBUG)>, _orig_logger=<Logger eva_iterator.eva_iterator (DEBUG)>, _logger=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _logging_handler=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _data_loader=range(1, 1000000000), _min_sample_time=1, _min_sample_steps=1, _test_mode=True, _test_mode_log_period=60, _job_id=0, _task_id=0, _worker_ip_addr=None, _worker_port=None, _iterator_ip_addr=localhost, _iterator_port=50123, _eva_start_timestamp=1716634332.944021, _server_thread=<Thread(Thread-1 (serve), started daemon 139898918004288)>, _throughput_start_time=None, _throughput_start_step=None, _first_step_time=None, _cur_step_time=None, _cur_step=0, _iterator=None)
+[2024-05-25 10:53:13] [60.06] Getting throughput - duration: 59.84504985809326, steps: 205, ready: True, throughput: 3.4255130622516545
+[2024-05-25 10:54:13] [120.12] Getting throughput - duration: 60.09066390991211, steps: 205, ready: True, throughput: 3.411511650251292
+[2024-05-25 10:58:29] [0.00] Setup EVAIterator: EvaIterator(_log_file=./eva_iterator.log, _file_handler=<FileHandler /home/src/eva_iterator.log (DEBUG)>, _orig_logger=<Logger eva_iterator.eva_iterator (DEBUG)>, _logger=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _logging_handler=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _data_loader=range(1, 1000000000), _min_sample_time=1, _min_sample_steps=1, _test_mode=True, _test_mode_log_period=60, _job_id=0, _task_id=0, _worker_ip_addr=None, _worker_port=None, _iterator_ip_addr=localhost, _iterator_port=50123, _eva_start_timestamp=1716634709.5376031, _server_thread=<Thread(Thread-1 (serve), started daemon 140270704256576)>, _throughput_start_time=None, _throughput_start_step=None, _first_step_time=None, _cur_step_time=None, _cur_step=0, _iterator=None)
+[2024-05-25 10:59:29] [60.06] Getting throughput - duration: 59.927693367004395, steps: 107, ready: True, throughput: 1.785485040192005
+[2024-05-25 11:00:29] [120.16] Getting throughput - duration: 25.986900806427002, steps: 90, ready: True, throughput: 3.4632833160982965
+[2024-05-25 11:01:29] [180.22] Getting throughput - duration: 94.07040691375732, steps: 48, ready: True, throughput: 0.5102561110850286
+[2024-05-25 11:02:29] [240.28] Getting throughput - duration: 14.607284545898438, steps: 50, ready: True, throughput: 3.422949682597882
+[2024-05-25 11:03:30] [300.48] Getting throughput - duration: 99.4957525730133, steps: 99, ready: True, throughput: 0.9950173493823317
+[2024-05-25 11:04:30] [360.52] Getting throughput - duration: 0.0, steps: -1, ready: False, throughput: 0
+[2024-05-25 11:05:25] [0.00] Setup EVAIterator: EvaIterator(_log_file=./eva_iterator.log, _file_handler=<FileHandler /home/src/eva_iterator.log (DEBUG)>, _orig_logger=<Logger eva_iterator.eva_iterator (DEBUG)>, _logger=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _logging_handler=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _data_loader=range(400, 1000000000), _min_sample_time=1, _min_sample_steps=1, _test_mode=True, _test_mode_log_period=60, _job_id=0, _task_id=0, _worker_ip_addr=None, _worker_port=None, _iterator_ip_addr=localhost, _iterator_port=50123, _eva_start_timestamp=1716635125.8737159, _server_thread=<Thread(Thread-1 (serve), started daemon 140320197043776)>, _throughput_start_time=None, _throughput_start_step=None, _first_step_time=None, _cur_step_time=None, _cur_step=0, _iterator=None)
+[2024-05-25 13:32:27] [0.00] Setup EVAIterator: EvaIterator(_log_file=./eva_iterator.log, _file_handler=<FileHandler /home/src/eva_iterator.log (DEBUG)>, _orig_logger=<Logger eva_iterator.eva_iterator (DEBUG)>, _logger=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _logging_handler=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _data_loader=range(1, 1000000000), _min_sample_time=1, _min_sample_steps=1, _test_mode=True, _test_mode_log_period=60, _wait_for_save_checkpoint=True, _should_save_checkpoint=False, _save_checkpoint_done=False, _save_checkpoint_done_cv=<Condition(<unlocked _thread.RLock object owner=0 count=0 at 0x7effa239b700>, 0)>, _job_id=0, _task_id=0, _worker_ip_addr=None, _worker_port=None, _iterator_ip_addr=localhost, _iterator_port=50123, _eva_start_timestamp=1716643947.6180487, _server_thread=<Thread(Thread-1 (serve), started daemon 139636383934016)>, _throughput_start_time=None, _throughput_start_step=None, _first_step_time=None, _cur_step_time=None, _cur_step=0, _iterator=None)
+[2024-05-25 13:33:27] [60.06] Getting throughput - duration: 60.02703356742859, steps: 208, ready: True, throughput: 3.4651054306448916
+[2024-05-25 13:33:27] [60.06] Notifying save checkpoint
+[2024-05-25 13:34:33] [125.91] Getting throughput - duration: 65.85562586784363, steps: 208, ready: True, throughput: 3.158424162840786
+[2024-05-25 13:34:33] [125.91] Notifying save checkpoint
+[2024-05-25 13:36:01] [0.00] Setup EVAIterator: EvaIterator(_log_file=./eva_iterator.log, _file_handler=<FileHandler /home/src/eva_iterator.log (DEBUG)>, _orig_logger=<Logger eva_iterator.eva_iterator (DEBUG)>, _logger=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _logging_handler=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _data_loader=range(1, 1000000000), _min_sample_time=1, _min_sample_steps=1, _test_mode=True, _test_mode_log_period=60, _wait_for_save_checkpoint=True, _should_save_checkpoint=False, _save_checkpoint_done=False, _save_checkpoint_done_cv=<Condition(<unlocked _thread.RLock object owner=0 count=0 at 0x7fbf6cbe4640>, 0)>, _job_id=0, _task_id=0, _worker_ip_addr=None, _worker_port=None, _iterator_ip_addr=localhost, _iterator_port=50123, _eva_start_timestamp=1716644161.302855, _server_thread=<Thread(Thread-1 (serve), started daemon 140460129510976)>, _throughput_start_time=None, _throughput_start_step=None, _first_step_time=None, _cur_step_time=None, _cur_step=0, _iterator=None)
+[2024-05-25 13:37:01] [60.06] Getting throughput - duration: 59.968422651290894, steps: 207, ready: True, throughput: 3.4518166536358628
+[2024-05-25 13:37:01] [60.06] Notifying save checkpoint
+[2024-05-25 13:37:01] [60.06] Waiting for save checkpoint
+[2024-05-25 13:37:07] [65.83] Save checkpoint done at step 208
+[2024-05-25 13:37:07] [65.83] Save checkpoint done
+[2024-05-25 13:38:07] [125.84] Getting throughput - duration: 65.6449384689331, steps: 206, ready: True, throughput: 3.138094189813139
+[2024-05-25 13:38:07] [125.84] Notifying save checkpoint
+[2024-05-25 13:38:07] [125.84] Waiting for save checkpoint
+[2024-05-25 13:38:17] [135.96] Save checkpoint done at step 415
+[2024-05-25 13:38:17] [135.96] Save checkpoint done
+[2024-05-25 13:39:05] [0.00] Setup EVAIterator: EvaIterator(_log_file=./eva_iterator.log, _file_handler=<FileHandler /home/src/eva_iterator.log (DEBUG)>, _orig_logger=<Logger eva_iterator.eva_iterator (DEBUG)>, _logger=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _logging_handler=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _data_loader=range(416, 1000000000), _min_sample_time=1, _min_sample_steps=1, _test_mode=True, _test_mode_log_period=60, _wait_for_save_checkpoint=True, _should_save_checkpoint=False, _save_checkpoint_done=False, _save_checkpoint_done_cv=<Condition(<unlocked _thread.RLock object owner=0 count=0 at 0x7f6f5571c4c0>, 0)>, _job_id=0, _task_id=0, _worker_ip_addr=None, _worker_port=None, _iterator_ip_addr=localhost, _iterator_port=50123, _eva_start_timestamp=1716644345.680765, _server_thread=<Thread(Thread-1 (serve), started daemon 140116142057024)>, _throughput_start_time=None, _throughput_start_step=None, _first_step_time=None, _cur_step_time=None, _cur_step=0, _iterator=None)
+[2024-05-25 13:40:05] [60.06] Getting throughput - duration: 59.79712128639221, steps: 198, ready: True, throughput: 3.311196187048858
+[2024-05-25 13:40:05] [60.06] Notifying save checkpoint
+[2024-05-25 13:40:05] [60.06] Waiting for save checkpoint
+[2024-05-25 13:40:59] [114.03] Save checkpoint done at step 199
+[2024-05-25 13:40:59] [114.03] Save checkpoint done
+[2024-05-25 13:41:59] [174.09] Getting throughput - duration: 114.05487561225891, steps: 200, ready: True, throughput: 1.7535418711947066
+[2024-05-25 13:41:59] [174.09] Notifying save checkpoint
+[2024-05-25 13:41:59] [174.09] Waiting for save checkpoint
+[2024-05-25 13:43:03] [0.00] Setup EVAIterator: EvaIterator(_log_file=./eva_iterator.log, _file_handler=<FileHandler /home/src/eva_iterator.log (DEBUG)>, _orig_logger=<Logger eva_iterator.eva_iterator (DEBUG)>, _logger=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _logging_handler=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _data_loader=range(615, 1000), _min_sample_time=1, _min_sample_steps=1, _test_mode=True, _test_mode_log_period=60, _wait_for_save_checkpoint=True, _should_save_checkpoint=False, _save_checkpoint_done=False, _save_checkpoint_done_cv=<Condition(<unlocked _thread.RLock object owner=0 count=0 at 0x7fdda5af6040>, 0)>, _job_id=0, _task_id=0, _worker_ip_addr=None, _worker_port=None, _iterator_ip_addr=localhost, _iterator_port=50123, _eva_start_timestamp=1716644583.3751268, _server_thread=<Thread(Thread-1 (serve), started daemon 140589912811072)>, _throughput_start_time=None, _throughput_start_step=None, _first_step_time=None, _cur_step_time=None, _cur_step=0, _iterator=None)
+[2024-05-25 13:44:03] [60.06] Getting throughput - duration: 60.00809383392334, steps: 200, ready: True, throughput: 3.3328837365425104
+[2024-05-25 13:44:03] [60.06] Notifying save checkpoint
+[2024-05-25 13:44:03] [60.06] Waiting for save checkpoint
+[2024-05-25 13:45:43] [160.23] Save checkpoint done at step 201
+[2024-05-25 13:45:43] [160.23] Save checkpoint done
+[2024-05-25 13:46:38] [214.87] End of data
+[2024-05-25 13:46:38] [214.89] Closing file handler
+[2024-05-25 13:46:38] [214.89] ----------------------------------------------
+[2024-05-25 13:51:43] [0.00] Setup EVAIterator: EvaIterator(_log_file=./eva_iterator.log, _file_handler=<FileHandler /home/src/eva_iterator.log (DEBUG)>, _orig_logger=<Logger eva_iterator.eva_iterator (DEBUG)>, _logger=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _logging_handler=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _data_loader=range(1, 1000), _min_sample_time=1, _min_sample_steps=1, _test_mode=True, _test_mode_log_period=60, _wait_for_save_checkpoint=True, _should_save_checkpoint=False, _save_checkpoint_done=False, _save_checkpoint_done_cv=<Condition(<unlocked _thread.RLock object owner=0 count=0 at 0x7efc41c6bc00>, 0)>, _job_id=0, _task_id=0, _worker_ip_addr=None, _worker_port=None, _iterator_ip_addr=localhost, _iterator_port=50123, _eva_start_timestamp=1716645103.1213994, _server_thread=<Thread(Thread-1 (serve), started daemon 139621890885184)>, _throughput_start_time=None, _throughput_start_step=None, _first_step_time=None, _cur_step_time=None, _cur_step=0, _iterator=None)
+[2024-05-25 13:52:43] [60.06] Getting throughput - duration: 59.99941563606262, steps: 207, ready: True, throughput: 3.450033601253655
+[2024-05-25 13:52:43] [60.06] Notifying save checkpoint
+[2024-05-25 13:52:43] [60.06] Waiting for save checkpoint
+[2024-05-25 13:52:51] [68.29] Save checkpoint done at step 208
+[2024-05-25 13:52:51] [68.29] Save checkpoint done
+[2024-05-25 13:53:51] [128.32] Getting throughput - duration: 59.80448055267334, steps: 207, ready: True, throughput: 3.461279123019602
+[2024-05-25 13:53:51] [128.32] Notifying save checkpoint
+[2024-05-25 13:53:51] [128.32] Waiting for save checkpoint
+[2024-05-25 13:55:05] [202.12] Save checkpoint done at step 416
+[2024-05-25 13:55:05] [202.12] Save checkpoint done
+[2024-05-25 13:55:42] [0.00] Setup EVAIterator: EvaIterator(_log_file=./eva_iterator.log, _file_handler=<FileHandler /home/src/eva_iterator.log (DEBUG)>, _orig_logger=<Logger eva_iterator.eva_iterator (DEBUG)>, _logger=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _logging_handler=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _data_loader=range(1, 1000), _min_sample_time=1, _min_sample_steps=1, _test_mode=True, _test_mode_log_period=60, _wait_for_save_checkpoint=True, _should_save_checkpoint=False, _save_checkpoint_done=False, _save_checkpoint_done_cv=<Condition(<unlocked _thread.RLock object owner=0 count=0 at 0x7f5f47a30300>, 0)>, _job_id=0, _task_id=0, _worker_ip_addr=None, _worker_port=None, _iterator_ip_addr=localhost, _iterator_port=50123, _eva_start_timestamp=1716645342.0547647, _server_thread=<Thread(Thread-1 (serve), started daemon 140047190844992)>, _throughput_start_time=None, _throughput_start_step=None, _first_step_time=None, _cur_step_time=None, _cur_step=0, _iterator=None)
+[2024-05-25 13:56:42] [60.06] Getting throughput - duration: 59.74926495552063, steps: 206, ready: True, throughput: 3.4477411588804205
+[2024-05-25 13:56:42] [60.06] Notifying save checkpoint
+[2024-05-25 13:56:42] [60.06] Waiting for save checkpoint
+[2024-05-25 13:56:48] [66.85] Save checkpoint done at step 208
+[2024-05-25 13:56:48] [66.85] Save checkpoint done
+[2024-05-25 13:57:48] [126.87] Getting throughput - duration: 59.58400630950928, steps: 205, ready: True, throughput: 3.4405205808942583
+[2024-05-25 13:57:48] [126.87] Notifying save checkpoint
+[2024-05-25 13:57:48] [126.87] Waiting for save checkpoint
+[2024-05-25 13:58:59] [197.73] Save checkpoint done at step 415
+[2024-05-25 13:58:59] [197.73] Save checkpoint done
+[2024-05-25 13:59:58] [0.00] Setup EVAIterator: EvaIterator(_log_file=./eva_iterator.log, _file_handler=<FileHandler /home/src/eva_iterator.log (DEBUG)>, _orig_logger=<Logger eva_iterator.eva_iterator (DEBUG)>, _logger=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _logging_handler=<IteratorAdapter eva_iterator.eva_iterator (DEBUG)>, _data_loader=range(416, 1000), _min_sample_time=1, _min_sample_steps=1, _test_mode=True, _test_mode_log_period=60, _wait_for_save_checkpoint=True, _should_save_checkpoint=False, _save_checkpoint_done=False, _save_checkpoint_done_cv=<Condition(<unlocked _thread.RLock object owner=0 count=0 at 0x7f2fc4802900>, 0)>, _job_id=0, _task_id=0, _worker_ip_addr=None, _worker_port=None, _iterator_ip_addr=localhost, _iterator_port=50123, _eva_start_timestamp=1716645598.8421998, _server_thread=<Thread(Thread-1 (serve), started daemon 139842381932096)>, _throughput_start_time=None, _throughput_start_step=None, _first_step_time=None, _cur_step_time=None, _cur_step=0, _iterator=None)
+[2024-05-25 14:00:58] [60.06] Getting throughput - duration: 59.79362225532532, steps: 199, ready: True, throughput: 3.3281141448539144
+[2024-05-25 14:00:58] [60.06] Notifying save checkpoint
+[2024-05-25 14:00:58] [60.06] Waiting for save checkpoint
+[2024-05-25 14:02:14] [136.02] Save checkpoint done at step 200
+[2024-05-25 14:02:14] [136.02] Save checkpoint done
+[2024-05-25 14:03:14] [196.08] Getting throughput - duration: 59.732277631759644, steps: 201, ready: True, throughput: 3.3650148289863355
+[2024-05-25 14:03:14] [196.08] Notifying save checkpoint
+[2024-05-25 14:03:14] [196.08] Waiting for save checkpoint
+[2024-05-25 14:04:31] [272.64] Save checkpoint done at step 403
+[2024-05-25 14:04:31] [272.64] Save checkpoint done
+[2024-05-25 14:05:25] [326.67] End of data
+[2024-05-25 14:05:25] [326.69] Closing file handler
+[2024-05-25 14:05:25] [326.69] ----------------------------------------------
