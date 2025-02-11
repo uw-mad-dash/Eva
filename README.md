@@ -27,7 +27,7 @@ The jobs have resource demands shown in Table 6. The scheduler does periodic sch
 Follow the following steps to run the experiment on the pre-configured EC2 instance:
 
 1. Contact the authors for the `eva_artifacts.pem` file. Place it at your home directory. Make sure the file has the correct permissions by running `chmod 400 eva_artifacts.pem`.
-2. On your local machine, run `ssh -i "eva_artifacts.pem" ubuntu@ec2-54-234-34-211.compute-1.amazonaws.com`. The remaining commands should be run on the EC2 instance.
+2. On your local machine, run `ssh -i "eva_artifacts.pem" ubuntu@ec2-3-90-239-70.compute-1.amazonaws.com`. The remaining commands should be run on the EC2 instance.
 3. Run `cd eva/src`
 4. Run `./run_artifact_evaluation.sh` to launch the experiment. This will launch a tmux session. The left panel is the scheduler in execution. The right panel is jobs being submitted.
 
@@ -39,7 +39,7 @@ Follow the following steps to run the experiment.
 
 #### On the EC2 Instance
 1. (If not done) Contact the authors for the `eva_artifacts.pem` file. Place it at your home directory.
-2. (If not done)  On your local machine, run `ssh -i "eva_artifacts.pem" ubuntu@ec2-54-234-34-211.compute-1.amazonaws.com`. The remaining commands should be run on the EC2 instance.
+2. (If not done)  On your local machine, run `ssh -i "eva_artifacts.pem" ubuntu@ec2-3-90-239-70.compute-1.amazonaws.com`. The remaining commands should be run on the EC2 instance.
 3. Run `cd eva/src`
 4. Run `python experiment_driver_200.py`. This will run the same trace with 5 different schedulers: No-Packing (`NaiveScheduler`), Eva (`EVAGangScheduler`), Stratus (`StratusScheduler`), Owl (`OwlScheduler`) and Synergy (`SynergyScheduler`).
 5. After the simulation completes, the dollar cost will be printed. The full results will be saved in `simulation_expermients/<SCHEDULER>_pai_200`.
@@ -57,7 +57,7 @@ To reproduce the results in Table 9, one can run the simulation on the full Alib
 
 #### On the EC2 Instance
 1. (If not done) Contact the authors for the `eva_artifacts.pem` file. Place it at your home directory.
-2. (If not done)  On your local machine, run `ssh -i "eva_artifacts.pem" ubuntu@ec2-54-234-34-211.compute-1.amazonaws.com`. The remaining commands should be run on the EC2 instance.
+2. (If not done)  On your local machine, run `ssh -i "eva_artifacts.pem" ubuntu@ec2-3-90-239-70.compute-1.amazonaws.com`. The remaining commands should be run on the EC2 instance.
 3. Run `cd eva/src`
 4. Run `python experiment_driver_full.py`. This will run the same trace with 5 different schedulers: No-Packing (`NaiveScheduler`), Eva (`EVAGangScheduler`), Stratus (`StratusScheduler`), Owl (`OwlScheduler`) and Synergy (`SynergyScheduler`).
 5. After the simulation completes, the dollar cost will be printed. The full results will be saved in `simulation_expermients/<SCHEDULER>_pai_full`.
