@@ -558,7 +558,7 @@ def plot_instantaneous_configuration(scheduler_report_path, out_path):
     }
 
     # Create a figure and axis
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(16, 6))
 
     # Plot each instance type as a stacked line
     it_points = {it_name: [] for it_name in it_colors.keys()}
@@ -582,9 +582,12 @@ def plot_instantaneous_configuration(scheduler_report_path, out_path):
     job_arrival_time = get_job_arrival_time(scheduler_report_path)
     for job_id, arrival_time in job_arrival_time.items():
         ax.axvline(x=arrival_time, color='grey', linestyle='--', linewidth=0.7)
+        # add text
+        ax.text(arrival_time, 0, f"Job {job_id} arrive", rotation=90, verticalalignment='bottom', horizontalalignment='right')
     job_completion_time = get_job_completion_time(scheduler_report_path)
     for job_id, completion_time in job_completion_time.items():
         ax.axvline(x=completion_time, color='red', linestyle='--', linewidth=0.7)
+        ax.text(completion_time, 0, f"Job {job_id} complete", rotation=90, verticalalignment='bottom', horizontalalignment='right')
 
     # for it_name, points in reversed(it_points.items()):
     #     print(it_name)
@@ -604,7 +607,7 @@ def plot_instantaneous_configuration(scheduler_report_path, out_path):
     ax.set_ylabel('Number of Instances')
     ax.set_title('Instantaneous Configuration Over Time')
     # y axis 0 ~ 12
-    ax.set_ylim([0, 14])
+    ax.set_ylim([0, 5])
 
     # Set legend based on instance colors
     handles = [plt.Line2D([0], [0], color=it_colors[it_name], label=it_name) for it_name in it_colors]
@@ -617,6 +620,7 @@ def plot_instantaneous_configuration(scheduler_report_path, out_path):
     # ax.legend(handles, labels)
 
     # Save the plot
+    plt.tight_layout()
     plt.savefig(out_path)
 
 def get_job_duration(report_path):
@@ -786,6 +790,26 @@ def calculate_total_cost(report_path):
                 total_cost += report['instance_types'][str(it_id)]['cost'] / 3600
         
     return total_cost
+
+def calculate_total_cost_per_instance(report_path):
+    with open(report_path, 'r') as file:
+        report = json.load(file)
+
+    max_time = get_max_time(report)
+    final_cost = 0
+
+    for instance_id, instance in report['instances'].items():
+        total_cost = 0
+        active_time = 0
+        for time in range(max_time):
+            if is_instance_active(instance, time):
+                active_time += 1
+                it_id = instance['instance_type_id']
+                total_cost += report['instance_types'][str(it_id)]['cost'] / 3600
+        print(f"Instance {instance_id} ({report['instance_types'][str(it_id)]['name']}): ${total_cost:.2f}, active time: {active_time} sec")
+        final_cost += total_cost
+    
+    print(f"Total cost: ${final_cost:.2f}")
 
 def summarize_instance_type_provisioned(report_path):
     with open(report_path, 'r') as file:
@@ -998,16 +1022,22 @@ def print_average_normalized_throughput_naive(report_path, naive_path):
     
     print(f"{report_path}: Average normalized throughput: {np.mean(list(task_id_to_normalized_throughput.values()))}")
 
+def artifacts_eval():
+    path = "/home/ubuntu/eva_report.json"
+    plot_instantaneous_configuration(path, "instantaneous_configuration.png")
+    calculate_total_cost_per_instance(path)
 
 def main():
+    artifacts_eval()
+    return
     # path = "/home/ubuntu/eva_report.json"
-    paths = {
-        "eva": "/home/ubuntu/resubmission_physical_experiment/eva/eva_report.json",
-        "stratus": "/home/ubuntu/resubmission_physical_experiment/stratus/eva_report.json",
-        "synergy": "/home/ubuntu/resubmission_physical_experiment/synergy/eva_report.json",
-        "owl": "/home/ubuntu/resubmission_physical_experiment/owl/eva_report.json",
-        "naive": "/home/ubuntu/resubmission_physical_experiment/naive/eva_report.json"
-    }
+    # paths = {
+    #     "eva": "/home/ubuntu/resubmission_physical_experiment/eva/eva_report.json",
+    #     "stratus": "/home/ubuntu/resubmission_physical_experiment/stratus/eva_report.json",
+    #     "synergy": "/home/ubuntu/resubmission_physical_experiment/synergy/eva_report.json",
+    #     "owl": "/home/ubuntu/resubmission_physical_experiment/owl/eva_report.json",
+    #     "naive": "/home/ubuntu/resubmission_physical_experiment/naive/eva_report.json"
+    # }
     print_average_normalized_throughput_all(paths)
     # for scheduler in paths:
     #     print_average_jct(paths[scheduler])
