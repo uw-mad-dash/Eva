@@ -5,7 +5,8 @@ import os
 
 EVA_IP_ADDR="172.31.17.248"
 EVA_PORT=50422
-trace = "/home/ubuntu/eurosys_artifacts_eval/physical_trace.json"
+#trace = "/home/ubuntu/mount/physical_experiment/physical_trace.json"
+trace = "/home/ubuntu/eva/src/eurosys_artifacts_eval/physical_trace.json"
 
 class Job:
     def __init__(self, id, name, arrival_time, local_path):
@@ -15,6 +16,7 @@ class Job:
         self.local_path = local_path
 
 def submit(job):
+    # global_working_dir = f"workspace_r1/job_{job.id}"
     global_working_dir = f"workspace/job_{job.id}"
     command = [
         "python", "eva_submit.py",
@@ -31,11 +33,13 @@ with open(trace, 'r') as file:
 
 jobs = {}
 for job_id, job_desc in trace_json.items():
+    print(f"{job_id} {job_desc['name']=}")
     jobs[int(job_id)] = Job(
         id=int(job_id),
         name=job_desc['name'],
         arrival_time=job_desc['arrival_time'],
-        local_path=f"/home/ubuntu/eurosys_artifacts_eval/physical_jobs/{job_desc['name']}"
+        local_path=f"/home/ubuntu/eva/src/eurosys_artifacts_eval/physical_jobs/{job_desc['name']}"
+        # local_path=f"/home/ubuntu/mount/physical_experiment/{job_desc['name']}"
         # local_path=f"/home/ubuntu/resubmission_physical_jobs/{job_desc['name']}/job_{job_id}"
     )
     # make sure the path exist

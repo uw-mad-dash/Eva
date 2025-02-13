@@ -161,20 +161,6 @@ class SynergyScheduler(Scheduler):
             if tasks[task_id].instance_id is None:
                 self._logger.debug(f"task_id {task_id} is not on any instance")
                 candidate_task_ids.append(task_id)
-        for instance_id in instances:
-            # ignore instances that have jobs that are migrating
-            if instance_id in planned_config:
-                continue
-            it_id = instances[instance_id].instance_type_id
-            # at this point, all tasks on this instance are migratable
-            self._logger.debug(f"instance_id {instance_id} is not in planned_config")
-            self._logger.debug(f"committed_task_ids: {instances[instance_id].committed_task_ids}")
-            opportunity_cost = self.get_opportunity_cost(instances[instance_id].committed_task_ids, tasks, jobs, instance_types, task_to_min_it_map, contention_map)
-            if opportunity_cost < instance_types[it_id].cost and \
-                not (len(instances[instance_id].committed_task_ids) == 1 and \
-                     task_to_min_it_map[instances[instance_id].committed_task_ids[0]] == it_id):
-                self._logger.debug(f"instance_id {instance_id} is not worth it, adding tasks {instances[instance_id].committed_task_ids} to candidate_task_ids")  
-                candidate_task_ids.extend(instances[instance_id].committed_task_ids)
         
         self._logger.debug(f"candidate_task_ids: {candidate_task_ids}")
          # for tasks that are not candidate_task_ids, add them to planned config
